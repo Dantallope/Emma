@@ -52,8 +52,25 @@ main {
 }
 
 /* Home page specific styles */
-.contact-info, .bio {
-  background-color: white;
+.contact-info {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+ .bio {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+.card {
+  background-color: lightgray;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
